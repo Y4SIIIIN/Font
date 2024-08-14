@@ -1,9 +1,6 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; 
-
-$GLOBALS['uaf_current_version']				= '6.3.05';
-
-
+$GLOBALS['uaf_current_version']	= '1.0.0';
 $GLOBALS['uaf_fix_settings'] 				= array(
 													'allowedFontFormats' 	=> array ('woff2','ttf','otf','off'),
 													'allowedFontSize'		=> 25, // IN MB
