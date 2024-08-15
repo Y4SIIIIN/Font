@@ -1,19 +1,19 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; 
 $GLOBALS['uaf_current_version']	= '1.0.0';
-$GLOBALS['uaf_fix_settings'] 				= array(
-													'allowedFontFormats' 	=> array ('woff2','ttf','otf','off'),
-													'allowedFontSize'		=> 25, // IN MB
-													'serverUrl'				=> array(
-																					'default' => 'https://server2.dnesscarkey.org',
-																					'alternative' => 'https://server3.dnesscarkey.org'
-																				),
-													'supported_multi_lang_plugins' => array(
-																					'polylang/polylang.php', // POLYLANG
-																					'polylang-pro/polylang.php', // POLYLANG PRO
-																					'sitepress-multilingual-cms/sitepress.php' //WPML
-																						),
-													'font_weight_variations'=> array(
+$GLOBALS['uaf_fix_settings'] = array(
+	'allowedFontFormats' 	=> array ('woff2','ttf','otf','off'),
+	'allowedFontSize'		=> 25, // IN MB
+	'serverUrl'		=> array(
+					'default' => 'https://server2.dnesscarkey.org',
+					'alternative' => 'https://server3.dnesscarkey.org'
+					),
+	'supported_multi_lang_plugins' => array(
+					'polylang/polylang.php', // POLYLANG
+					'polylang-pro/polylang.php', // POLYLANG PRO
+					'sitepress-multilingual-cms/sitepress.php' //WPML
+					),
+					'font_weight_variations'=> array(
 																					'100' => 'Thin 100',
 																					'200' => 'Extra light 200',
 																					'300' => 'Light 300',
